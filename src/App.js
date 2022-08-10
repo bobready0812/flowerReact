@@ -1,22 +1,18 @@
 import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './component/Home';
 
 function App() {
-  const callApi = async () => {
-    axios.get("/api").then((res) => console.log(res.data.test));
-
-  };
-
-  useEffect(() => {
-    callApi();
-    return()
-  }, []);
-
   return (
-    <div>test</div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+      </Routes>
+    </BrowserRouter>
+  )
+
 }
 
 export default App;
