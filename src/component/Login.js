@@ -14,7 +14,9 @@ function Login() {
                 <p className="pw21">비밀번호</p>
                 <input className="pw211"></input>
                 <button className="login21">로그인</button>
-                <Link className="nonAcc">계정이 없다면?</Link>
+                <Link to="/join">
+                <button className="nonAcc">계정이 없다면?</button>
+                </Link>
             </div>
         </div>
     );
