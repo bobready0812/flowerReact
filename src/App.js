@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './component/Home';
 import Login from './component/Login';
+import Join from './component/Join';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/join' element={<Join />} />
       </Routes>
     </BrowserRouter>
   )
