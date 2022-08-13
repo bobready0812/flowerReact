@@ -1,4 +1,4 @@
-.background23 {
+.background22 {
     width: 368px;
     height: 796px;
     background-color: #fde7e2;
@@ -6,24 +6,65 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    flex-direction: column;
 }
-.circle23 {
-    width: 164px;
-    height: 164px;
-    background-color: #fefaf0;
-    border-radius: 50%;
+.modal22 {
+    width: 274px;
+    height: 475px;
+    background-color: #fff9f4;
+    border-radius: 30px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.pinkSpan23 {
+.pinkSpan22 {
     color: #dd9292;
-    font-size: larger;
+    margin-top: 40px;
+    font-size: large;
     font-weight: bolder;
-    margin-top: 30px;
 }
-.leaf {
-    width: 100px;
-    height: 100px;
+.id22 {
+    color: #5e452a;
+    font-weight: border;
+    font-size: large;
+}
+.pw22 {
+    color: #5e452a;
+    font-weight: border;
+    font-size: large;
+}
+.nick22 {
+    color: #5e452a;
+    font-weight: border;
+    font-size: large;
+}
+.id221 {
+    border: 0;
+    background-color: #e5e5e5;
+    height: 35px;
+    width: 220px;
+    border-radius: 8px;
+}
+.pw221 {
+    border: 0;
+    background-color: #e5e5e5;
+    height: 35px;
+    width: 220px;
+    border-radius: 8px;
+}
+.nick221 {
+    border: 0;
+    background-color: #e5e5e5;
+    height: 35px;
+    width: 220px;
+    border-radius: 8px;
+}
+.make22 {
+    border: 0;
+    height: 35px;
+    background-color: #dd9292;
+    margin-top: 40px;
+    border-radius: 8px;
+    width: 70px;
+    color: #fff9f4;
+    font-size: medium;
 }
