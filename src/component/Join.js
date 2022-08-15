@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Join.css';
 
 function Join() {
+
+    const id = useState("");
+    const password = useState("");
+    const nickname = useState("");
 
     
 
