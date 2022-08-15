@@ -19,8 +19,9 @@ function Join() {
         setNickname(e.target.value);
     }
     
-    const createID = () => {
-        console.log(id,password,nickname);
+    const createID = (e) => {
+        e.preventDefault();
+        
     }
     
 
