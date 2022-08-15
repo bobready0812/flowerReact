@@ -3,10 +3,25 @@ import './Join.css';
 
 function Join() {
 
-    const id = useState("");
-    const password = useState("");
-    const nickname = useState("");
+    const [id, setId] = useState("");
+    const [password, setPassword] = useState("");
+    const [nickname, setNickname] = useState("");
 
+
+    const changeID = (e) => {
+        setId(e.target.value);
+    }
+    const changePassword = (e) => {
+        setPassword(e.target.value);
+    }
+
+    const changeNickname = (e) => {
+        setNickname(e.target.value);
+    }
+    
+    const createID = () => {
+        console.log(id,password,nickname);
+    }
     
 
     return (
@@ -16,12 +31,12 @@ function Join() {
                     <form>
                         <span className="pinkSpan22">계정 생성</span>
                         <p className="id22">아이디</p>
-                        <input className="id221"></input>
+                        <input onChange={changeID} value={id} className="id221"></input>
                         <p className="pw22">비밀번호</p>
-                        <input className="pw221"></input>
+                        <input onChange={changePassword} value={password} className="pw221"></input>
                         <p className="nick22">닉네임</p>
-                        <input className="nick221"></input>
-                        <button className="make22">생성</button>
+                        <input  onChange={changeNickname} value={nickname} className="nick221"></input>
+                        <button onClick={createID} className="make22">생성</button>
                     </form>
                 </div>
             </div>
