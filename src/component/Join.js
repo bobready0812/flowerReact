@@ -20,9 +20,13 @@ function Join() {
         setNickname(e.target.value);
     }
     
-    const createID = (e) => {
+    const createID = async(e) => {
         e.preventDefault();
-        
+        await axios.post('/join', {
+            id,
+            password,
+            nickname,
+        })
     }
     
 
