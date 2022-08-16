@@ -22,7 +22,7 @@ function Join() {
     
     const createID = async(e) => {
         e.preventDefault();
-        await axios.get('http://localhost:5000/join', {
+        await axios.post('/api/join', {
             id,
             password,
             nickname,
