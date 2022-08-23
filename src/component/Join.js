@@ -44,7 +44,7 @@ function Join() {
                         <input onChange={changePassword} value={password} className="pw221"></input>
                         <p className="nick22">닉네임</p>
                         <input  onChange={changeNickname} value={nickname} className="nick221"></input>
-                        <button onClick={createID} className="make22">생성</button>
+                        <button onClick={createID} className="make22">만들기</button>
                     </form>
                 </div>
             </div>
